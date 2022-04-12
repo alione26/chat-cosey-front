@@ -12,7 +12,7 @@ const LoginPage = (props) => {
     const password = passwordRef.current.value;
 
     axios
-      .post("https://cosey-back.herokuapp.com//user/login", {
+      .post("https://cosey-back.herokuapp.com/user/login", {
         email,
         password,
       })
